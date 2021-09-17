@@ -1,0 +1,23 @@
+goal:
+
+./sudoku_solver "53..7...." "6..195..." ".98....6." "8...6...3" "4..8.3..1" "7...2...6" ".6....28." "...419..5" "....8..79"
+
+main
+object called sudoku sudoku_solver
+object should check if it is a valid input
+check if valid board
+find solution
+check if valid solution (only 1 solution)
+print result
+
+0 1 1 2 3 5 8 i[n], i[n+1]
+
+def fibonacci(num):
+    #return the number at index num in the fibonacci sequence
+
+    if num == 0:
+        return 0
+    if num == 1:
+        return 1
+
+    return fiboanni(n - 1) + fibonacci(n - 2)
